@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  Modern macOS App Template
+
+  Created by Developer on $(date).
+*/
+
+// MARK: - General
+"app.name" = "Modern macOS App Template";
+"ok" = "OK";
+"cancel" = "Cancel";
+"save" = "Save";
+"delete" = "Delete";
+"edit" = "Edit";
+"done" = "Done";
+"close" = "Close";
+"refresh" = "Refresh";
+"loading" = "Loading...";
+"error" = "Error";
+"warning" = "Warning";
+"success" = "Success";
+"info" = "Information";
+
+// MARK: - Navigation
+"home" = "Home";
+"settings" = "Settings";
+"about" = "About";
+
+// MARK: - Home
+"home.welcome" = "Welcome";
+"home.subtitle" = "Getting started with your app";
+"home.no_items" = "No items found";
+"home.search_placeholder" = "Search items...";
+"home.refresh" = "Refresh";
+
+// MARK: - Settings
+"settings.general" = "General";
+"settings.appearance" = "Appearance";
+"settings.advanced" = "Advanced";
+"settings.about" = "About";
+"settings.reset_defaults" = "Reset to Defaults";
+"settings.app_name" = "App Name";
+"settings.enable_notifications" = "Enable Notifications";
+"settings.auto_save" = "Auto Save";
+"settings.max_recent_items" = "Max Recent Items";
+"settings.theme" = "Theme";
+"settings.use_system_accent" = "Use System Accent Color";
+"settings.custom_accent" = "Custom Accent Color";
+"settings.show_sidebar" = "Show Sidebar";
+"settings.sidebar_width" = "Sidebar Width";
+"settings.debug_mode" = "Enable Debug Mode";
+"settings.cache_size" = "Max Cache Size (MB)";
+"settings.analytics" = "Enable Analytics";
+"settings.data_retention" = "Data Retention (days)";
+"settings.clear_cache" = "Clear Cache";
+"settings.export_settings" = "Export Settings";
+
+// MARK: - Themes
+"theme.light" = "Light";
+"theme.dark" = "Dark";
+"theme.system" = "System";
+
+// MARK: - Categories
+"category.featured" = "Featured";
+"category.resources" = "Resources";
+"category.tools" = "Tools";
+"category.support" = "Support";
+
+// MARK: - Errors
+"error.generic" = "An unexpected error occurred";
+"error.network" = "Network connection error";
+"error.loading" = "Failed to load data";
+"error.saving" = "Failed to save data";
+
+// MARK: - Actions
+"action.try_again" = "Try Again";
+"action.add_item" = "Add Item";
+"action.remove_item" = "Remove Item";
+"action.view_details" = "View Details";
+
+// MARK: - Accessibility
+"accessibility.search" = "Search";
+"accessibility.menu" = "Menu";
+"accessibility.close" = "Close";
+"accessibility.back" = "Back";

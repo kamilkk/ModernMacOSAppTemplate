@@ -1,0 +1,53 @@
+## SwiftGen Configuration File
+## See: https://github.com/SwiftGen/SwiftGen/blob/main/Documentation/ConfigFile.md
+
+# Input/Output paths are relative to the config file directory
+input_dir: Sources/Resources
+output_dir: Sources/Resources/Generated
+
+# Strings configuration
+strings:
+  inputs:
+    - Localizable/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Strings+Generated.swift
+      params:
+        enumName: L10n
+        publicAccess: true
+
+# Assets configuration  
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Assets+Generated.swift
+      params:
+        enumName: Asset
+        publicAccess: true
+        allValues: true
+        forceFileNameEnum: true
+
+# Colors configuration
+colors:
+  inputs:
+    - Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: Colors+Generated.swift
+      params:
+        enumName: ColorName
+        publicAccess: true
+
+# Fonts configuration
+fonts:
+  inputs:
+    - .
+  filter: \.(otf|ttf)$
+  outputs:
+    - templateName: swift5
+      output: Fonts+Generated.swift
+      params:
+        enumName: FontFamily
+        publicAccess: true
